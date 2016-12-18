@@ -356,23 +356,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(3)
 	__vue_script__ = __webpack_require__(5)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiAlert.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiAlert.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(80)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiAlert.vue"
+	  var id = "_v-75fe3bcd/UiAlert.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -464,23 +471,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(7)
 	__vue_script__ = __webpack_require__(8)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiIcon.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiIcon.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(9)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiIcon.vue"
+	  var id = "_v-be7944d0/UiIcon.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -522,30 +536,37 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 9 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<i\n    class=\"ui-icon material-icons\" :class=\"[icon]\" v-text=\"removeText ? null : icon\"\n    aria-hidden=\"true\"\n></i>\n";
+	module.exports = "\n<i\n    class=\"fa ui-icon\" :class=\"[icon]\" v-title=\"removeText ? null : icon\"\n    aria-hidden=\"true\"\n></i>\n";
 
 /***/ },
 /* 10 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(11)
 	__vue_script__ = __webpack_require__(12)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiIconButton.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiIconButton.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(79)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiIconButton.vue"
+	  var id = "_v-753f902c/UiIconButton.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -676,23 +697,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(14)
 	__vue_script__ = __webpack_require__(15)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiMenu.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiMenu.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(62)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiMenu.vue"
+	  var id = "_v-ae7b5904/UiMenu.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -817,23 +845,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(17)
 	__vue_script__ = __webpack_require__(18)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiMenuOption.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiMenuOption.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(57)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiMenuOption.vue"
+	  var id = "_v-70ecb113/UiMenuOption.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -945,23 +980,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(21)
 	__vue_script__ = __webpack_require__(22)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiRippleInk.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiRippleInk.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(56)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiRippleInk.vue"
+	  var id = "_v-25ceec87/UiRippleInk.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -2575,7 +2617,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 60 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*! tether 1.2.0 */
+	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*! tether 1.4.0 */
 	
 	(function(root, factory) {
 	  if (true) {
@@ -2598,25 +2640,55 @@ return /******/ (function(modules) { // webpackBootstrap
 	  TetherBase = { modules: [] };
 	}
 	
-	function getScrollParent(el) {
+	var zeroElement = null;
+	
+	// Same as native getBoundingClientRect, except it takes into account parent <frame> offsets
+	// if the element lies within a nested document (<frame> or <iframe>-like).
+	function getActualBoundingClientRect(node) {
+	  var boundingRect = node.getBoundingClientRect();
+	
+	  // The original object returned by getBoundingClientRect is immutable, so we clone it
+	  // We can't use extend because the properties are not considered part of the object by hasOwnProperty in IE9
+	  var rect = {};
+	  for (var k in boundingRect) {
+	    rect[k] = boundingRect[k];
+	  }
+	
+	  if (node.ownerDocument !== document) {
+	    var _frameElement = node.ownerDocument.defaultView.frameElement;
+	    if (_frameElement) {
+	      var frameRect = getActualBoundingClientRect(_frameElement);
+	      rect.top += frameRect.top;
+	      rect.bottom += frameRect.top;
+	      rect.left += frameRect.left;
+	      rect.right += frameRect.left;
+	    }
+	  }
+	
+	  return rect;
+	}
+	
+	function getScrollParents(el) {
 	  // In firefox if the el is inside an iframe with display: none; window.getComputedStyle() will return null;
 	  // https://bugzilla.mozilla.org/show_bug.cgi?id=548397
 	  var computedStyle = getComputedStyle(el) || {};
 	  var position = computedStyle.position;
+	  var parents = [];
 	
 	  if (position === 'fixed') {
-	    return el;
+	    return [el];
 	  }
 	
 	  var parent = el;
-	  while (parent = parent.parentNode) {
+	  while ((parent = parent.parentNode) && parent && parent.nodeType === 1) {
 	    var style = undefined;
 	    try {
 	      style = getComputedStyle(parent);
 	    } catch (err) {}
 	
 	    if (typeof style === 'undefined' || style === null) {
-	      return parent;
+	      parents.push(parent);
+	      return parents;
 	    }
 	
 	    var _style = style;
@@ -2626,12 +2698,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    if (/(auto|scroll)/.test(overflow + overflowY + overflowX)) {
 	      if (position !== 'absolute' || ['relative', 'absolute', 'fixed'].indexOf(style.position) >= 0) {
-	        return parent;
+	        parents.push(parent);
 	      }
 	    }
 	  }
 	
-	  return document.body;
+	  parents.push(el.ownerDocument.body);
+	
+	  // If the node is within a frame, account for the parent window scroll
+	  if (el.ownerDocument !== document) {
+	    parents.push(el.ownerDocument.defaultView);
+	  }
+	
+	  return parents;
 	}
 	
 	var uniqueId = (function () {
@@ -2642,14 +2721,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	})();
 	
 	var zeroPosCache = {};
-	var getOrigin = function getOrigin(doc) {
+	var getOrigin = function getOrigin() {
 	  // getBoundingClientRect is unfortunately too accurate.  It introduces a pixel or two of
 	  // jitter as the user scrolls that messes with our ability to detect if two positions
 	  // are equivilant or not.  We place an element at the top left of the page that will
 	  // get the same jitter, so we can cancel the two out.
-	  var node = doc._tetherZeroElement;
-	  if (typeof node === 'undefined') {
-	    node = doc.createElement('div');
+	  var node = zeroElement;
+	  if (!node || !document.body.contains(node)) {
+	    node = document.createElement('div');
 	    node.setAttribute('data-tether-id', uniqueId());
 	    extend(node.style, {
 	      top: 0,
@@ -2657,20 +2736,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	      position: 'absolute'
 	    });
 	
-	    doc.body.appendChild(node);
+	    document.body.appendChild(node);
 	
-	    doc._tetherZeroElement = node;
+	    zeroElement = node;
 	  }
 	
 	  var id = node.getAttribute('data-tether-id');
 	  if (typeof zeroPosCache[id] === 'undefined') {
-	    zeroPosCache[id] = {};
-	
-	    var rect = node.getBoundingClientRect();
-	    for (var k in rect) {
-	      // Can't use extend, as on IE9, elements don't resolve to be hasOwnProperty
-	      zeroPosCache[id][k] = rect[k];
-	    }
+	    zeroPosCache[id] = getActualBoundingClientRect(node);
 	
 	    // Clear the cache when this position call is done
 	    defer(function () {
@@ -2679,6 +2752,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	
 	  return zeroPosCache[id];
+	};
+	
+	function removeUtilElements() {
+	  if (zeroElement) {
+	    document.body.removeChild(zeroElement);
+	  }
+	  zeroElement = null;
 	};
 	
 	function getBounds(el) {
@@ -2692,15 +2772,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	  var docEl = doc.documentElement;
 	
-	  var box = {};
-	  // The original object returned by getBoundingClientRect is immutable, so we clone it
-	  // We can't use extend because the properties are not considered part of the object by hasOwnProperty in IE9
-	  var rect = el.getBoundingClientRect();
-	  for (var k in rect) {
-	    box[k] = rect[k];
-	  }
+	  var box = getActualBoundingClientRect(el);
 	
-	  var origin = getOrigin(doc);
+	  var origin = getOrigin();
 	
 	  box.top -= origin.top;
 	  box.left -= origin.left;
@@ -2724,7 +2798,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return el.offsetParent || document.documentElement;
 	}
 	
+	var _scrollBarSize = null;
 	function getScrollBarSize() {
+	  if (_scrollBarSize) {
+	    return _scrollBarSize;
+	  }
 	  var inner = document.createElement('div');
 	  inner.style.width = '100%';
 	  inner.style.height = '200px';
@@ -2757,7 +2835,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	  var width = widthContained - widthScroll;
 	
-	  return { width: width, height: width };
+	  _scrollBarSize = { width: width, height: width };
+	  return _scrollBarSize;
 	}
 	
 	function extend() {
@@ -2817,7 +2896,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	
 	function getClassName(el) {
-	  if (el.className instanceof SVGAnimatedString) {
+	  // Can't use just SVGAnimatedString here since nodes within a Frame in IE have
+	  // completely separately SVGAnimatedString base classes
+	  if (el.className instanceof el.ownerDocument.defaultView.SVGAnimatedString) {
 	    return el.className.baseVal;
 	  }
 	  return el.className;
@@ -2882,7 +2963,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'off',
 	    value: function off(event, handler) {
-	      if (typeof this.bindings !== 'undefined' && typeof this.bindings[event] !== 'undefined') {
+	      if (typeof this.bindings === 'undefined' || typeof this.bindings[event] === 'undefined') {
 	        return;
 	      }
 	
@@ -2936,7 +3017,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	})();
 	
 	TetherBase.Utils = {
-	  getScrollParent: getScrollParent,
+	  getActualBoundingClientRect: getActualBoundingClientRect,
+	  getScrollParents: getScrollParents,
 	  getBounds: getBounds,
 	  getOffsetParent: getOffsetParent,
 	  extend: extend,
@@ -2948,7 +3030,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  flush: flush,
 	  uniqueId: uniqueId,
 	  Evented: Evented,
-	  getScrollBarSize: getScrollBarSize
+	  getScrollBarSize: getScrollBarSize,
+	  removeUtilElements: removeUtilElements
 	};
 	/* globals TetherBase, performance */
 	
@@ -2958,14 +3041,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 	
+	var _get = function get(_x6, _x7, _x8) { var _again = true; _function: while (_again) { var object = _x6, property = _x7, receiver = _x8; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x6 = parent; _x7 = property; _x8 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
 	if (typeof TetherBase === 'undefined') {
 	  throw new Error('You must include the utils.js file before tether.js');
 	}
 	
 	var _TetherBase$Utils = TetherBase.Utils;
-	var getScrollParent = _TetherBase$Utils.getScrollParent;
+	var getScrollParents = _TetherBase$Utils.getScrollParents;
 	var getBounds = _TetherBase$Utils.getBounds;
 	var getOffsetParent = _TetherBase$Utils.getOffsetParent;
 	var extend = _TetherBase$Utils.extend;
@@ -2975,6 +3062,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var defer = _TetherBase$Utils.defer;
 	var flush = _TetherBase$Utils.flush;
 	var getScrollBarSize = _TetherBase$Utils.getScrollBarSize;
+	var removeUtilElements = _TetherBase$Utils.removeUtilElements;
 	
 	function within(a, b) {
 	  var diff = arguments.length <= 2 || arguments[2] === undefined ? 1 : arguments[2];
@@ -2988,7 +3076,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	  var el = document.createElement('div');
 	
-	  var transforms = ['transform', 'webkitTransform', 'OTransform', 'MozTransform', 'msTransform'];
+	  var transforms = ['transform', 'WebkitTransform', 'OTransform', 'MozTransform', 'msTransform'];
 	  for (var i = 0; i < transforms.length; ++i) {
 	    var key = transforms[i];
 	    if (el.style[key] !== undefined) {
@@ -3033,7 +3121,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      return;
 	    }
 	
-	    if (typeof pendingTimeout !== 'undefined') {
+	    if (pendingTimeout != null) {
 	      clearTimeout(pendingTimeout);
 	      pendingTimeout = null;
 	    }
@@ -3043,7 +3131,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    lastDuration = now() - lastCall;
 	  };
 	
-	  if (typeof window !== 'undefined') {
+	  if (typeof window !== 'undefined' && typeof window.addEventListener !== 'undefined') {
 	    ['resize', 'scroll', 'touchmove'].forEach(function (event) {
 	      window.addEventListener(event, tick);
 	    });
@@ -3149,12 +3237,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 	var parseAttachment = parseOffset;
 	
-	var TetherClass = (function () {
+	var TetherClass = (function (_Evented) {
+	  _inherits(TetherClass, _Evented);
+	
 	  function TetherClass(options) {
 	    var _this = this;
 	
 	    _classCallCheck(this, TetherClass);
 	
+	    _get(Object.getPrototypeOf(TetherClass.prototype), 'constructor', this).call(this);
 	    this.position = this.position.bind(this);
 	
 	    tethers.push(this);
@@ -3245,14 +3336,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	      this.offset = parseOffset(this.options.offset);
 	      this.targetOffset = parseOffset(this.options.targetOffset);
 	
-	      if (typeof this.scrollParent !== 'undefined') {
+	      if (typeof this.scrollParents !== 'undefined') {
 	        this.disable();
 	      }
 	
 	      if (this.targetModifier === 'scroll-handle') {
-	        this.scrollParent = this.target;
+	        this.scrollParents = [this.target];
 	      } else {
-	        this.scrollParent = getScrollParent(this.target);
+	        this.scrollParents = getScrollParents(this.target);
 	      }
 	
 	      if (!(this.options.enabled === false)) {
@@ -3373,6 +3464,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'enable',
 	    value: function enable() {
+	      var _this3 = this;
+	
 	      var pos = arguments.length <= 0 || arguments[0] === undefined ? true : arguments[0];
 	
 	      if (!(this.options.addTargetClasses === false)) {
@@ -3381,9 +3474,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	      addClass(this.element, this.getClass('enabled'));
 	      this.enabled = true;
 	
-	      if (this.scrollParent !== document) {
-	        this.scrollParent.addEventListener('scroll', this.position);
-	      }
+	      this.scrollParents.forEach(function (parent) {
+	        if (parent !== _this3.target.ownerDocument) {
+	          parent.addEventListener('scroll', _this3.position);
+	        }
+	      });
 	
 	      if (pos) {
 	        this.position();
@@ -3392,32 +3487,40 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'disable',
 	    value: function disable() {
+	      var _this4 = this;
+	
 	      removeClass(this.target, this.getClass('enabled'));
 	      removeClass(this.element, this.getClass('enabled'));
 	      this.enabled = false;
 	
-	      if (typeof this.scrollParent !== 'undefined') {
-	        this.scrollParent.removeEventListener('scroll', this.position);
+	      if (typeof this.scrollParents !== 'undefined') {
+	        this.scrollParents.forEach(function (parent) {
+	          parent.removeEventListener('scroll', _this4.position);
+	        });
 	      }
 	    }
 	  }, {
 	    key: 'destroy',
 	    value: function destroy() {
-	      var _this3 = this;
+	      var _this5 = this;
 	
 	      this.disable();
 	
 	      tethers.forEach(function (tether, i) {
-	        if (tether === _this3) {
+	        if (tether === _this5) {
 	          tethers.splice(i, 1);
-	          return;
 	        }
 	      });
+	
+	      // Remove any elements we were using for convenience from the DOM
+	      if (tethers.length === 0) {
+	        removeUtilElements();
+	      }
 	    }
 	  }, {
 	    key: 'updateAttachClasses',
 	    value: function updateAttachClasses(elementAttach, targetAttach) {
-	      var _this4 = this;
+	      var _this6 = this;
 	
 	      elementAttach = elementAttach || this.attachment;
 	      targetAttach = targetAttach || this.targetAttachment;
@@ -3450,27 +3553,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	      var all = [];
 	      sides.forEach(function (side) {
-	        all.push(_this4.getClass('element-attached') + '-' + side);
-	        all.push(_this4.getClass('target-attached') + '-' + side);
+	        all.push(_this6.getClass('element-attached') + '-' + side);
+	        all.push(_this6.getClass('target-attached') + '-' + side);
 	      });
 	
 	      defer(function () {
-	        if (!(typeof _this4._addAttachClasses !== 'undefined')) {
+	        if (!(typeof _this6._addAttachClasses !== 'undefined')) {
 	          return;
 	        }
 	
-	        updateClasses(_this4.element, _this4._addAttachClasses, all);
-	        if (!(_this4.options.addTargetClasses === false)) {
-	          updateClasses(_this4.target, _this4._addAttachClasses, all);
+	        updateClasses(_this6.element, _this6._addAttachClasses, all);
+	        if (!(_this6.options.addTargetClasses === false)) {
+	          updateClasses(_this6.target, _this6._addAttachClasses, all);
 	        }
 	
-	        delete _this4._addAttachClasses;
+	        delete _this6._addAttachClasses;
 	      });
 	    }
 	  }, {
 	    key: 'position',
 	    value: function position() {
-	      var _this5 = this;
+	      var _this7 = this;
 	
 	      var flushChanges = arguments.length <= 0 || arguments[0] === undefined ? true : arguments[0];
 	
@@ -3489,7 +3592,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      this.updateAttachClasses(this.attachment, targetAttachment);
 	
 	      var elementPos = this.cache('element-bounds', function () {
-	        return getBounds(_this5.element);
+	        return getBounds(_this7.element);
 	      });
 	
 	      var width = elementPos.width;
@@ -3507,7 +3610,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 	
 	      var targetPos = this.cache('target-bounds', function () {
-	        return _this5.getTargetBounds();
+	        return _this7.getTargetBounds();
 	      });
 	      var targetSize = targetPos;
 	
@@ -3572,29 +3675,32 @@ return /******/ (function(modules) { // webpackBootstrap
 	        }
 	      };
 	
+	      var doc = this.target.ownerDocument;
+	      var win = doc.defaultView;
+	
 	      var scrollbarSize = undefined;
-	      if (document.body.scrollWidth > window.innerWidth) {
+	      if (win.innerHeight > doc.documentElement.clientHeight) {
 	        scrollbarSize = this.cache('scrollbar-size', getScrollBarSize);
 	        next.viewport.bottom -= scrollbarSize.height;
 	      }
 	
-	      if (document.body.scrollHeight > window.innerHeight) {
+	      if (win.innerWidth > doc.documentElement.clientWidth) {
 	        scrollbarSize = this.cache('scrollbar-size', getScrollBarSize);
 	        next.viewport.right -= scrollbarSize.width;
 	      }
 	
-	      if (['', 'static'].indexOf(document.body.style.position) === -1 || ['', 'static'].indexOf(document.body.parentElement.style.position) === -1) {
+	      if (['', 'static'].indexOf(doc.body.style.position) === -1 || ['', 'static'].indexOf(doc.body.parentElement.style.position) === -1) {
 	        // Absolute positioning in the body will be relative to the page, not the 'initial containing block'
-	        next.page.bottom = document.body.scrollHeight - top - height;
-	        next.page.right = document.body.scrollWidth - left - width;
+	        next.page.bottom = doc.body.scrollHeight - top - height;
+	        next.page.right = doc.body.scrollWidth - left - width;
 	      }
 	
 	      if (typeof this.options.optimizations !== 'undefined' && this.options.optimizations.moveElement !== false && !(typeof this.targetModifier !== 'undefined')) {
 	        (function () {
-	          var offsetParent = _this5.cache('target-offsetparent', function () {
-	            return getOffsetParent(_this5.target);
+	          var offsetParent = _this7.cache('target-offsetparent', function () {
+	            return getOffsetParent(_this7.target);
 	          });
-	          var offsetPosition = _this5.cache('target-offsetparent-bounds', function () {
+	          var offsetPosition = _this7.cache('target-offsetparent-bounds', function () {
 	            return getBounds(offsetParent);
 	          });
 	          var offsetParentStyle = getComputedStyle(offsetParent);
@@ -3605,8 +3711,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	            offsetBorder[side.toLowerCase()] = parseFloat(offsetParentStyle['border' + side + 'Width']);
 	          });
 	
-	          offsetPosition.right = document.body.scrollWidth - offsetPosition.left - offsetParentSize.width + offsetBorder.right;
-	          offsetPosition.bottom = document.body.scrollHeight - offsetPosition.top - offsetParentSize.height + offsetBorder.bottom;
+	          offsetPosition.right = doc.body.scrollWidth - offsetPosition.left - offsetParentSize.width + offsetBorder.right;
+	          offsetPosition.bottom = doc.body.scrollHeight - offsetPosition.top - offsetParentSize.height + offsetBorder.bottom;
 	
 	          if (next.page.top >= offsetPosition.top + offsetBorder.top && next.page.bottom >= offsetPosition.bottom) {
 	            if (next.page.left >= offsetPosition.left + offsetBorder.left && next.page.right >= offsetPosition.right) {
@@ -3647,7 +3753,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'move',
 	    value: function move(pos) {
-	      var _this6 = this;
+	      var _this8 = this;
 	
 	      if (!(typeof this.element.parentNode !== 'undefined')) {
 	        return;
@@ -3678,8 +3784,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var css = { top: '', left: '', right: '', bottom: '' };
 	
 	      var transcribe = function transcribe(_same, _pos) {
-	        var hasOptimizations = typeof _this6.options.optimizations !== 'undefined';
-	        var gpu = hasOptimizations ? _this6.options.optimizations.gpu : null;
+	        var hasOptimizations = typeof _this8.options.optimizations !== 'undefined';
+	        var gpu = hasOptimizations ? _this8.options.optimizations.gpu : null;
 	        if (gpu !== false) {
 	          var yPos = undefined,
 	              xPos = undefined;
@@ -3699,7 +3805,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	            xPos = -_pos.right;
 	          }
 	
-	          css[transformKey] = 'translateX(' + Math.round(xPos) + 'px) translateY(' + Math.round(yPos) + 'px)';
+	          if (window.matchMedia) {
+	            // HubSpot/tether#207
+	            var retina = window.matchMedia('only screen and (min-resolution: 1.3dppx)').matches || window.matchMedia('only screen and (-webkit-min-device-pixel-ratio: 1.3)').matches;
+	            if (!retina) {
+	              xPos = Math.round(xPos);
+	              yPos = Math.round(yPos);
+	            }
+	          }
+	
+	          css[transformKey] = 'translateX(' + xPos + 'px) translateY(' + yPos + 'px)';
 	
 	          if (transformKey !== 'msTransform') {
 	            // The Z transform will keep this in the GPU (faster, and prevents artifacts),
@@ -3731,14 +3846,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	      } else if (typeof same.offset !== 'undefined' && same.offset.top && same.offset.left) {
 	        (function () {
 	          css.position = 'absolute';
-	          var offsetParent = _this6.cache('target-offsetparent', function () {
-	            return getOffsetParent(_this6.target);
+	          var offsetParent = _this8.cache('target-offsetparent', function () {
+	            return getOffsetParent(_this8.target);
 	          });
 	
-	          if (getOffsetParent(_this6.element) !== offsetParent) {
+	          if (getOffsetParent(_this8.element) !== offsetParent) {
 	            defer(function () {
-	              _this6.element.parentNode.removeChild(_this6.element);
-	              offsetParent.appendChild(_this6.element);
+	              _this8.element.parentNode.removeChild(_this8.element);
+	              offsetParent.appendChild(_this8.element);
 	            });
 	          }
 	
@@ -3751,20 +3866,24 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 	
 	      if (!moved) {
-	        var offsetParentIsBody = true;
-	        var currentNode = this.element.parentNode;
-	        while (currentNode && currentNode.tagName !== 'BODY') {
-	          if (getComputedStyle(currentNode).position !== 'static') {
-	            offsetParentIsBody = false;
-	            break;
+	        if (this.options.bodyElement) {
+	          this.options.bodyElement.appendChild(this.element);
+	        } else {
+	          var offsetParentIsBody = true;
+	          var currentNode = this.element.parentNode;
+	          while (currentNode && currentNode.nodeType === 1 && currentNode.tagName !== 'BODY') {
+	            if (getComputedStyle(currentNode).position !== 'static') {
+	              offsetParentIsBody = false;
+	              break;
+	            }
+	
+	            currentNode = currentNode.parentNode;
 	          }
 	
-	          currentNode = currentNode.parentNode;
-	        }
-	
-	        if (!offsetParentIsBody) {
-	          this.element.parentNode.removeChild(this.element);
-	          document.body.appendChild(this.element);
+	          if (!offsetParentIsBody) {
+	            this.element.parentNode.removeChild(this.element);
+	            this.element.ownerDocument.body.appendChild(this.element);
+	          }
 	        }
 	      }
 	
@@ -3775,11 +3894,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	        var val = css[key];
 	        var elVal = this.element.style[key];
 	
-	        if (elVal !== '' && val !== '' && ['top', 'left', 'bottom', 'right'].indexOf(key) >= 0) {
-	          elVal = parseFloat(elVal);
-	          val = parseFloat(val);
-	        }
-	
 	        if (elVal !== val) {
 	          write = true;
 	          writeCSS[key] = val;
@@ -3788,14 +3902,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	      if (write) {
 	        defer(function () {
-	          extend(_this6.element.style, writeCSS);
+	          extend(_this8.element.style, writeCSS);
+	          _this8.trigger('repositioned');
 	        });
 	      }
 	    }
 	  }]);
 	
 	  return TetherClass;
-	})();
+	})(Evented);
 	
 	TetherClass.modules = [];
 	
@@ -3818,7 +3933,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function getBoundingRect(tether, to) {
 	  if (to === 'scrollParent') {
-	    to = tether.scrollParent;
+	    to = tether.scrollParents[0];
 	  } else if (to === 'window') {
 	    to = [pageXOffset, pageYOffset, innerWidth + pageXOffset, innerHeight + pageYOffset];
 	  }
@@ -3829,11 +3944,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	  if (typeof to.nodeType !== 'undefined') {
 	    (function () {
+	      var node = to;
 	      var size = getBounds(to);
 	      var pos = size;
 	      var style = getComputedStyle(to);
 	
 	      to = [pos.left, pos.top, size.width + pos.left, size.height + pos.top];
+	
+	      // Account any parent Frames scroll offset
+	      if (node.ownerDocument !== document) {
+	        var win = node.ownerDocument.defaultView;
+	        to[0] += win.pageXOffset;
+	        to[1] += win.pageYOffset;
+	        to[2] += win.pageXOffset;
+	        to[3] += win.pageYOffset;
+	      }
 	
 	      BOUNDS_FORMAT.forEach(function (side, i) {
 	        side = side[0].toUpperCase() + side.substr(1);
@@ -3946,34 +4071,32 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 	
 	      if (changeAttachY === 'together') {
-	        if (top < bounds[1] && tAttachment.top === 'top') {
-	          if (eAttachment.top === 'bottom') {
+	        if (tAttachment.top === 'top') {
+	          if (eAttachment.top === 'bottom' && top < bounds[1]) {
 	            top += targetHeight;
 	            tAttachment.top = 'bottom';
 	
 	            top += height;
 	            eAttachment.top = 'top';
-	          } else if (eAttachment.top === 'top') {
-	            top += targetHeight;
+	          } else if (eAttachment.top === 'top' && top + height > bounds[3] && top - (height - targetHeight) >= bounds[1]) {
+	            top -= height - targetHeight;
 	            tAttachment.top = 'bottom';
 	
-	            top -= height;
 	            eAttachment.top = 'bottom';
 	          }
 	        }
 	
-	        if (top + height > bounds[3] && tAttachment.top === 'bottom') {
-	          if (eAttachment.top === 'top') {
+	        if (tAttachment.top === 'bottom') {
+	          if (eAttachment.top === 'top' && top + height > bounds[3]) {
 	            top -= targetHeight;
 	            tAttachment.top = 'top';
 	
 	            top -= height;
 	            eAttachment.top = 'bottom';
-	          } else if (eAttachment.top === 'bottom') {
-	            top -= targetHeight;
+	          } else if (eAttachment.top === 'bottom' && top < bounds[1] && top + (height * 2 - targetHeight) <= bounds[3]) {
+	            top += height - targetHeight;
 	            tAttachment.top = 'top';
 	
-	            top += height;
 	            eAttachment.top = 'top';
 	          }
 	        }
@@ -4165,6 +4288,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	      if (tAttachment.top !== targetAttachment.top || tAttachment.left !== targetAttachment.left || eAttachment.top !== _this.attachment.top || eAttachment.left !== _this.attachment.left) {
 	        _this.updateAttachClasses(eAttachment, tAttachment);
+	        _this.trigger('update', {
+	          attachment: eAttachment,
+	          targetAttachment: tAttachment
+	        });
 	      }
 	    });
 	
@@ -4339,23 +4466,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(64)
 	__vue_script__ = __webpack_require__(65)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiPopover.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiPopover.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(66)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiPopover.vue"
+	  var id = "_v-743d3256/UiPopover.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -4434,23 +4568,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(68)
 	__vue_script__ = __webpack_require__(69)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiProgressCircular.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiProgressCircular.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(70)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiProgressCircular.vue"
+	  var id = "_v-41a0e5ea/UiProgressCircular.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -4646,23 +4787,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(75)
 	__vue_script__ = __webpack_require__(76)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiTooltip.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiTooltip.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(78)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiTooltip.vue"
+	  var id = "_v-ce5a7698/UiTooltip.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -4919,23 +5067,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(82)
 	__vue_script__ = __webpack_require__(83)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiAutocomplete.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiAutocomplete.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(108)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiAutocomplete.vue"
+	  var id = "_v-6f06ca87/UiAutocomplete.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -5233,23 +5388,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(86)
 	__vue_script__ = __webpack_require__(87)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiAutocompleteSuggestion.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiAutocompleteSuggestion.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(89)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiAutocompleteSuggestion.vue"
+	  var id = "_v-5cf2402a/UiAutocompleteSuggestion.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -7195,23 +7357,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(110)
 	__vue_script__ = __webpack_require__(111)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiButton.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiButton.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(112)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiButton.vue"
+	  var id = "_v-2154c3de/UiButton.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -7359,23 +7528,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(114)
 	__vue_script__ = __webpack_require__(115)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiCheckbox.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiCheckbox.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(116)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiCheckbox.vue"
+	  var id = "_v-1439ac62/UiCheckbox.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -7495,23 +7671,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(118)
 	__vue_script__ = __webpack_require__(119)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiCollapsible.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiCollapsible.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(120)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiCollapsible.vue"
+	  var id = "_v-0e1814bb/UiCollapsible.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -7675,23 +7858,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(122)
 	__vue_script__ = __webpack_require__(123)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiConfirm.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiConfirm.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(128)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiConfirm.vue"
+	  var id = "_v-7b6434f1/UiConfirm.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -7830,23 +8020,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(125)
 	__vue_script__ = __webpack_require__(126)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiModal.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiModal.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(127)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiModal.vue"
+	  var id = "_v-4e7d9c9e/UiModal.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8041,23 +8238,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(130)
 	__vue_script__ = __webpack_require__(131)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiFab.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiFab.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(132)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiFab.vue"
+	  var id = "_v-22b9db90/UiFab.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8149,23 +8353,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(134)
 	__vue_script__ = __webpack_require__(135)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiPreloader.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiPreloader.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(136)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiPreloader.vue"
+	  var id = "_v-0cb3c532/UiPreloader.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8210,23 +8421,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(138)
 	__vue_script__ = __webpack_require__(139)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiProgressLinear.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiProgressLinear.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(140)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiProgressLinear.vue"
+	  var id = "_v-a947b0de/UiProgressLinear.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8299,23 +8517,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(142)
 	__vue_script__ = __webpack_require__(143)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiRadio.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiRadio.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(144)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiRadio.vue"
+	  var id = "_v-d9574228/UiRadio.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8412,23 +8637,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(146)
 	__vue_script__ = __webpack_require__(147)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiRadioGroup.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiRadioGroup.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(148)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiRadioGroup.vue"
+	  var id = "_v-1ac159a3/UiRadioGroup.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8557,23 +8789,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(150)
 	__vue_script__ = __webpack_require__(151)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiRating.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiRating.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(156)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiRating.vue"
+	  var id = "_v-5697fafc/UiRating.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8757,23 +8996,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(153)
 	__vue_script__ = __webpack_require__(154)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiRatingIcon.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiRatingIcon.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(155)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiRatingIcon.vue"
+	  var id = "_v-01ebe515/UiRatingIcon.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8852,23 +9098,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(158)
 	__vue_script__ = __webpack_require__(159)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiRatingPreview.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiRatingPreview.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(160)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiRatingPreview.vue"
+	  var id = "_v-f5554d48/UiRatingPreview.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8933,23 +9186,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(162)
 	__vue_script__ = __webpack_require__(163)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiSelect.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiSelect.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(171)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiSelect.vue"
+	  var id = "_v-7742b6db/UiSelect.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -9222,7 +9482,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            });
 	        },
 	        select: function select(option, index) {
-	            var close = arguments.length <= 2 || arguments[2] === undefined ? true : arguments[2];
+	            var close = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
 	
 	            if (this.multiple) {
 	                if (this.isSelected(option)) {
@@ -9576,7 +9836,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	
 	function scrollIntoView(element, container) {
-	    var marginTop = arguments.length <= 2 || arguments[2] === undefined ? 0 : arguments[2];
+	    var marginTop = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0;
 	
 	    if (!element || inView(element, container)) {
 	        return;
@@ -9606,23 +9866,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(168)
 	__vue_script__ = __webpack_require__(169)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiSelectOption.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiSelectOption.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(170)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiSelectOption.vue"
+	  var id = "_v-c00b4aa0/UiSelectOption.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -9721,23 +9988,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(173)
 	__vue_script__ = __webpack_require__(174)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiSlider.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiSlider.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(183)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiSlider.vue"
+	  var id = "_v-1be58040/UiSlider.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12185,23 +12459,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(185)
 	__vue_script__ = __webpack_require__(186)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiSnackbar.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiSnackbar.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(187)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiSnackbar.vue"
+	  var id = "_v-235208a4/UiSnackbar.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12325,23 +12606,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(189)
 	__vue_script__ = __webpack_require__(190)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiSnackbarContainer.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiSnackbarContainer.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(191)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiSnackbarContainer.vue"
+	  var id = "_v-1361bded/UiSnackbarContainer.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12467,23 +12755,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(193)
 	__vue_script__ = __webpack_require__(194)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiSwitch.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiSwitch.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(195)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiSwitch.vue"
+	  var id = "_v-757945da/UiSwitch.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12580,23 +12875,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(197)
 	__vue_script__ = __webpack_require__(198)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiTab.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiTab.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(199)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiTab.vue"
+	  var id = "_v-598b6074/UiTab.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12660,23 +12962,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(201)
 	__vue_script__ = __webpack_require__(202)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiTabs.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiTabs.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(207)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiTabs.vue"
+	  var id = "_v-d0896bc6/UiTabs.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12922,23 +13231,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(204)
 	__vue_script__ = __webpack_require__(205)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiTabHeaderItem.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiTabHeaderItem.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(206)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiTabHeaderItem.vue"
+	  var id = "_v-2981c4b4/UiTabHeaderItem.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -13024,23 +13340,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(209)
 	__vue_script__ = __webpack_require__(210)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiTextbox.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiTextbox.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(211)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiTextbox.vue"
+	  var id = "_v-543966a2/UiTextbox.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -13264,23 +13587,30 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
+	var __vue_styles__ = {}
 	__webpack_require__(213)
 	__vue_script__ = __webpack_require__(214)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiToolbar.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiToolbar.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(215)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
+	var __vue_options__ = typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports
 	if (__vue_template__) {
-	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	__vue_options__.template = __vue_template__
 	}
+	if (!__vue_options__.computed) __vue_options__.computed = {}
+	Object.keys(__vue_styles__).forEach(function (key) {
+	var module = __vue_styles__[key]
+	__vue_options__.computed[key] = function () { return module }
+	})
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiToolbar.vue"
+	  var id = "_v-59cff7a8/UiToolbar.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
