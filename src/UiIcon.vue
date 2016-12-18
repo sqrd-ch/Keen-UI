@@ -1,6 +1,6 @@
 <template>
     <i
-        class="ui-icon material-icons" :class="[icon]" v-text="removeText ? null : icon"
+        class="fa ui-icon" :class="[icon]" v-title="removeText ? null : icon"
         aria-hidden="true"
     ></i>
 </template>
